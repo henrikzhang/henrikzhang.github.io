@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Covid19</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel = "stylesheet" href = "main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+        
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (width: 1000;) {
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse visible-xs" style = "position: fixed; top: 0;
+width: 100%;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">COVIDHUB</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="home.html">Home</a></li>
+        <li><a href="statistics.html">Statistics</a></li>
+        <li><a href="symptoms.html">Symptoms</a></li>
+        <li><a href="treatments.html">Treatments</a></li>
+        <li><a href="FurtherKnowledge.html">Further Knowledge</a></li>
+        <li><a href="author.html">About the Author</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-2 sidenav hidden-xs" style = "height: 45%; margin-top: 0;width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;">
+      <h2 style = "text-align: center">COVIDHUB</h2>
+      <ul class="nav nav-pills nav-stacked">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="statistics.html">Statistics</a></li>
+        <li><a href="symptoms.html">Symptoms</a></li>
+        <li><a href="treatments.html">Treatments</a></li>
+        <li><a href="FurtherKnowledge.html">Further Knowledge</a></li>
+        <li><a href="author.html">About the Author</a></li>
+      </ul><br>
+    </div>
+    <br>
+    
+    <div class="col-sm-10" style = "float: right">= 
+      <div class="well">
+        <h4>COVID19</h4>
+        <p>Below there are multiple articles relating to different aspects of COVID-19 </p>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+            <p>
+                Below are articles regarding vaccines and prevention for COVID-19:
+            </p>
+          <div class="well">
+                <form action = "https://www.nejm.org/doi/full/10.1056/NEJMp2005630">
+                    <button type = "submit">Developing Covid-19 Vaccines at Pandemic Speed</button>
+                </form>
+              <form action = "https://www.pnas.org/content/117/15/8218.short">
+                    <button type = "submit">News Feature: Avoiding pitfalls in the pursuit of a COVID-19 vaccine</button>
+                </form>
+              <form action = "https://science.sciencemag.org/content/368/6494/948.summary">
+                    <button type = "submit">A strategic approach to COVID-19 vaccine R&D</button>
+                </form>
+              <form action = "https://www.nature.com/articles/s41577-020-0323-4">
+                    <button type = "submit">COVID-19 vaccine design: the Janus face of immune enhancement</button>
+                </form>
+              <form action = "https://www.nejm.org/doi/full/10.1056/nejme2002387">
+                    <button type = "submit">Covid-19 — Navigating the Uncharted</button>
+                </form>
+          </div>
+        </div>
+        </div>
+        
+        <div class="row">
+        <div class="col-sm-12">
+            <p>
+                Below are articles regarding treatments for COVID-19:
+            </p>
+          <div class="well">
+                <form action = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7069465/">
+                    <button type = "submit">Transplantation of ACE2- Mesenchymal Stem Cells Improves the Outcome of Patients with COVID-19 Pneumonia</button>
+                </form>
+              <form action = "https://www.sciencedirect.com/science/article/pii/S0024320520302253">
+                    <button type = "submit">Anti-HCV, nucleotide inhibitors, repurposing against COVID-19</button>
+                </form>
+              <form action = "https://www.preprints.org/manuscript/202002.0242/v2">
+                    <button type = "submit">Potential Therapeutic Agents for COVID-19 Based on the Analysis of Protease and RNA Polymerase Docking</button>
+                </form>
+              <form action = "https://www.sciencedirect.com/science/article/pii/S1477893920301162">
+                    <button type = "submit">Remdesivir for severe acute respiratory syndrome coronavirus 2 causing COVID-19: An evaluation of the evidence</button>
+                </form>
+              <form action = "https://www.nytimes.com/2020/06/16/world/europe/dexamethasone-coronavirus-covid.html?campaign_id=9&emc=edit_nn_20200617&instance_id=19462&nl=the-morning&regi_id=132414000&segment_id=31113&te=1&user_id=2a82fd0b7f52b459439ec4f236748643">
+                    <button type = "submit">Common Drug Reduces Coronavirus Deaths, Scientists Report</button>
+                </form>
+          </div>
+        </div>
+        </div>
+        
+        <div class="row">
+        <div class="col-sm-12">
+            <p>
+                Below are articles regarding etiology for COVID-19:
+            </p>
+          <div class="well">
+                <form action = "https://jamanetwork.com/journals/jamacardiology/article-abstract/2763524">
+                    <button type = "submit">Association of Cardiac Injury With Mortality in Hospitalized Patients With COVID-19 in Wuhan, China</button>
+                </form>
+              <form action = "https://arxiv.org/abs/2003.13547">
+                    <button type = "submit">Sex Differences in Severity and Mortality Among Patients With COVID-19: Evidence from Pooled Literature Analysis and Insights from Integrated Bioinformatic Analysis</button>
+                </form>
+              <form action = "https://febs.onlinelibrary.wiley.com/doi/full/10.1111/febs.15303">
+                    <button type = "submit">Is nicotine exposure linked to cardiopulmonary vulnerability to COVID‐19 in the general population?</button>
+                </form>
+              <form action = "https://www.medrxiv.org/content/10.1101/2020.02.18.20023242v1">
+                    <button type = "submit">Kidney impairment is associated with in-hospital death of COVID-19 patients</button>
+                </form>
+              <form action = "https://www.journal-of-hepatology.eu/article/S0168-8278(20)30206-3/fulltext">
+                    <button type = "submit">Non-alcoholic fatty liver diseases in patients with COVID-19: A retrospective study</button>
+                </form>
+          </div>
+        </div>
+        </div>
+        
+        <div class="row">
+        <div class="col-sm-12">
+            <p>
+                Below are articles regarding genomics for COVID-19:
+            </p>
+          <div class="well">
+                <form action = "https://www.biorxiv.org/content/10.1101/2020.03.31.019216v1">
+                    <button type = "submit">Virus-host interactome and proteomic survey of PMBCs from COVID-19 patients reveal potential virulence factors influencing SARS-CoV-2 pathogenesis</button>
+                </form>
+              <form action = "https://www.tandfonline.com/doi/full/10.1080/22221751.2020.1747363">
+                    <button type = "submit">Transcriptomic characteristics of bronchoalveolar lavage fluid and peripheral blood mononuclear cells in COVID-19 patients</button>
+                </form>
+              <form action = "https://www.medrxiv.org/content/10.1101/2020.02.23.20026690v1">
+                    <button type = "submit">The landscape of lung bronchoalveolar immune cells in COVID-19 revealed by single-cell RNA sequencing</button>
+                </form>
+              <form action = "https://www.nature.com/articles/s41591-020-0901-9">
+                    <button type = "submit">Single-cell landscape of bronchoalveolar immune cells in patients with COVID-19</button>
+                </form>
+              <form action = "https://www.sciencedirect.com/science/article/pii/S1931312820302444">
+                    <button type = "submit">Heightened Innate Immune Responses in the Respiratory Tract of COVID-19 Patients</button>
+                </form>
+          </div>
+        </div>
+        </div>
+        
+        <div class="row">
+        <div class="col-sm-12">
+            <p>
+                Below are articles regarding vaccines and prevention for COVID-19:
+            </p>
+          <div class="well">
+                <form action = "https://www.nejm.org/doi/full/10.1056/NEJMp2005630">
+                    <button type = "submit">Developing Covid-19 Vaccines at Pandemic Speed</button>
+                </form>
+              <form action = "https://www.pnas.org/content/117/15/8218.short">
+                    <button type = "submit">News Feature: Avoiding pitfalls in the pursuit of a COVID-19 vaccine</button>
+                </form>
+              <form action = "https://science.sciencemag.org/content/368/6494/948.summary">
+                    <button type = "submit">A strategic approach to COVID-19 vaccine R&D</button>
+                </form>
+              <form action = "https://www.nature.com/articles/s41577-020-0323-4">
+                    <button type = "submit">COVID-19 vaccine design: the Janus face of immune enhancement</button>
+                </form>
+              <form action = "https://www.nejm.org/doi/full/10.1056/nejme2002387">
+                    <button type = "submit">Covid-19 — Navigating the Uncharted</button>
+                </form>
+          </div>
+        </div>
+        </div>
+        
+        <div class="row">
+        <div class="col-sm-12">
+            <p>
+                Below are articles regarding special cases and case studies for COVID-19:
+            </p>
+          <div class="well">
+                <form action = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7045880/">
+                    <button type = "submit">Identification of Coronavirus Isolated from a Patient in Korea with COVID-19</button>
+                </form>
+              <form action = "https://www.sciencedirect.com/science/article/pii/S1473309920302000">
+                    <button type = "submit">Clinical and virological data of the first cases of COVID-19 in Europe: a case series</button>
+                </form>
+              <form action = "https://www.sciencedirect.com/science/article/pii/S0923753420363833">
+                    <button type = "submit">Clinical characteristics of COVID-19-infected cancer patients: a retrospective case study in three hospitals within Wuhan, China</button>
+                </form>
+              <form action = "https://erj.ersjournals.com/content/55/5/2000547.short">
+                    <button type = "submit">Comorbidity and its impact on 1590 patients with COVID-19 in China: a nationwide analysis</button>
+                </form>
+              <form action = "https://www.nejm.org/doi/full/10.1056/NEJMoa2004500">
+                    <button type = "submit">Covid-19 in Critically Ill Patients in the Seattle Region — Case Series</button>
+                </form>
+          </div>
+        </div>
+        </div>
+        
+        <div class="row">
+        <div class="col-sm-12">
+            <p>
+                Below are articles regarding reviews for COVID-19:
+            </p>
+          <div class="well">
+                <form action = "https://www.nejm.org/doi/full/10.1056/NEJMp2005630">
+                    <button type = "submit">Developing Covid-19 Vaccines at Pandemic Speed</button>
+                </form>
+              <form action = "https://www.pnas.org/content/117/15/8218.short">
+                    <button type = "submit">News Feature: Avoiding pitfalls in the pursuit of a COVID-19 vaccine</button>
+                </form>
+              <form action = "https://science.sciencemag.org/content/368/6494/948.summary">
+                    <button type = "submit">A strategic approach to COVID-19 vaccine R&D</button>
+                </form>
+              <form action = "https://www.nature.com/articles/s41577-020-0323-4">
+                    <button type = "submit">COVID-19 vaccine design: the Janus face of immune enhancement</button>
+                </form>
+              <form action = "https://www.nejm.org/doi/full/10.1056/nejme2002387">
+                    <button type = "submit">Covid-19 — Navigating the Uncharted</button>
+                </form>
+          </div>
+        </div>
+        </div>
+        
+        <div class="row">
+        <div class="col-sm-12">
+            <p>
+                Below are articles regarding vaccines and prevention for COVID-19:
+            </p>
+          <div class="well">
+                <form action = "https://www.sciencedirect.com/science/article/pii/S0924857920301059">
+                    <button type = "submit">The epidemiology, diagnosis and treatment of COVID-19</button>
+                </form>
+              <form action = "https://www.sciencedirect.com/science/article/pii/S1743919120301977">
+                    <button type = "submit">World Health Organization declares global emergency: A review of the 2019 novel coronavirus (COVID-19)</button>
+                </form>
+              <form action = "https://pubs.rsna.org/doi/full/10.1148/ryct.2020200034">
+                    <button type = "submit">Imaging Profile of the COVID-19 Infection: Radiologic Findings and Literature Review</button>
+                </form>
+              <form action = "https://www.sciencedirect.com/science/article/pii/S1477893920300910">
+                    <button type = "submit">Clinical, laboratory and imaging features of COVID-19: A systematic review and meta-analysis</button>
+                </form>
+              <form action = "https://cellandbioscience.biomedcentral.com/articles/10.1186/s13578-020-00404-4">
+                    <button type = "submit">SARS-CoV-2 and COVID-19: The most important research questions</button>
+                </form>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
